@@ -2507,3 +2507,11 @@ GROUP BY courseId;
 --Question_8
 SELECT count(courseId) FROM teaching WHERE sem='Even' and classRoom LIKE '%R1%';
 SELECT count(courseId) FROM teaching WHERE sem='Odd' and classRoom LIKE '%R1%';
+
+DROP TABLE student;
+DROP TABLE enrollment;
+DROP TABLE course;
+DROP TABLE department;
+DROP TABLE prerequisite;
+DROP TABLE teaching;
+DROP TABLE professor;
