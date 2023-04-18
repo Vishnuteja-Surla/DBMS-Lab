@@ -37,7 +37,6 @@ DECLARE
     num integer;
     remainder integer;
 BEGIN
-    dbms_output.put_line('Enter a number :- ');
     num := &num;
     dbms_output.put_line(num);
     remainder := num MOD 55;
